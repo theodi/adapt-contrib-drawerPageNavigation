@@ -1,0 +1,17 @@
+{
+  "name": "adapt-contrib-drawerPageNavigation",
+  "version": "1.0.0",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/theodi/adapt-contrib-drawerPageNavigation",
+  "issues": "https://github.com/theodi/adapt-contrib-drawerPageNavigation/issues/new?title=contrib-drawPageNavigation%3A%20please%20enter%20a%20brief%20summary%20of%20the%20issue%20here&body=please%20provide%20a%20full%20description%20of%20the%20problem,%20including%20steps%20on%20how%20to%20replicate,%20what%20browser(s)/device(s)%20the%20problem%20occurs%20on%20and,%20where%20helpful,%20screenshots.",
+  "displayName" : "Course navigation",
+  "extension" : "drawerPageNavigation",
+  "description": "An extension to allow learners to navigate between pages without having to return to the main menu. Sits in the drawer.",
+  "main": "/js/adapt-contrib-drawerPageNavigation.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_drawerPageNavigation"
+}

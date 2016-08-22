@@ -1,0 +1,6 @@
+// To go in the course.json file
+"_drawerPageNavigation": {
+    "_isEnabled": true,
+    "title": "Navigation",
+    "description": "Click here to navigate this course"
+}

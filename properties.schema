@@ -1,0 +1,68 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "pluginLocations": {
+      "type":"object",
+      "required":true,
+      "properties":{
+        "config": {
+          "type":"object"
+        },
+        "course": {
+          "type":"object",
+          "properties":{
+            "_drawerPageNavigation": {
+              "type": "object",
+              "required": false,
+              "legend": "Navigation",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required":true,
+                  "default": true,
+                  "title": "Is enabled",
+                  "inputType": {"type": "Boolean", "options": [true, false]},
+                  "validators": [],
+                  "help": "If set to 'false', Resources will be disabled"
+                },
+                "title": {
+                  "type": "string",
+                  "default":"Navigation",
+                  "required": true,
+                  "title": "",
+                  "inputType": "Text",
+                  "validators": ["required"],
+                  "translatable": true
+                },
+                "description": {
+                  "type": "string",
+                  "default":"Click here to navigate this course",
+                  "required": false,
+                  "title": "",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": true
+                }                
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type":"object"
+        },
+        "article": {
+          "type":"object"
+        },
+        "block": {
+          "type":"object"
+        },
+        "component": {
+          "type":"object"
+        }
+      }
+    }
+  }
+}

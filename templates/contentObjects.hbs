@@ -1,0 +1,17 @@
+<div class="contentObjects-inner" role="complementary">
+	<div class="contentObjects-item-container">
+	{{#each resources}}
+	<div class="contentObjects-item drawer-item">
+		<button class="base contentObjects-item-open drawer-item-open" data-href="{{_id}}" tabindex="0" role="button">
+			<div class="drawer-item-title">
+				<div class="drawer-item-title-inner h5">{{{title}}}</div>
+			</div>
+			<div class="drawer-item-description">
+				<div class="drawer-item-description-inner">{{{description}}}</div>
+			</div>
+		</button>
+	</div>
+	{{/each}}
+	</div>
+	<div class="aria-label a11y-ignore-focus prevent-default" tabindex="0"/>
+</div>
